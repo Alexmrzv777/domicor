@@ -1,0 +1,1 @@
+import{h as r,g as e}from"./index.esm-DbBTiuPF.js";import"./cloud-B6sk26ps.js";import"./index-sapwgECh.js";async function p(i,o,s,n){const t=await r(e(i),"joinAsKid")({familyId:o,memberId:s,pin:n}),a=Number(t.data?.waitMs);return{ok:t.data?.ok===!0,waitMs:a>0?a:void 0}}export{p as joinAsKid};
